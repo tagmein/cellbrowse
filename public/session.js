@@ -213,8 +213,8 @@ async function attachSession(sessionStub) {
      'textarea'
     )
     inputProxyContainer.style.display = 'block'
-    inputProxyTextarea.style.display = 'none'
-    inputProxyInput.style.display = 'initial'
+    inputProxyTextarea.style.display = 'initial'
+    inputProxyInput.style.display = 'none'
     inputProxyTextarea.setAttribute(
      'placeholder',
      session.data.focusedElement.placeholder ??
